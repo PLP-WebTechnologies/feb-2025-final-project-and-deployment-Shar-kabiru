@@ -1,0 +1,80 @@
+TECHTREND ECOMMERCE PROJECT DOCUMENTATION
+
+Project Name: TechTrend Ecommerce Platform
+Version: 1.0
+Last Updated: 14/05/2024
+
+1. OVERVIEW
+A responsive ecommerce web application featuring:
+- Product catalog with filtering/sorting
+- Shopping cart functionality
+- Order management system
+- Product detail pages
+- Order history tracking
+
+2. TECHNICAL SPECIFICATIONS
+- Frontend: HTML5, CSS3, JavaScript
+- Storage: LocalStorage for cart/orders persistence
+- Responsive Design: Mobile-first approach
+- Deployment: Static site (Netlify)
+
+3. KEY FEATURES
+
+3.1 PRODUCT MANAGEMENT
+- Multi-page product catalog
+- Category filtering (Audio/Wearables/Cameras)
+- Sorting (Price/Name)
+- Detailed product pages with:
+  * Image gallery
+  * Specifications
+  * Description tabs
+
+3.2 SHOPPING CART
+- Add/remove items
+- Quantity adjustment
+- Real-time cart counter
+- Persistent cart between sessions
+
+3.3 ORDER SYSTEM
+- Checkout process
+- Order status workflow:
+  Processing → Shipped → Completed
+- Status change history tracking
+- Order detail pages
+
+4. FILE STRUCTURE
+
+index.html          - Homepage with featured products
+products.html       - Full product catalog
+product-detail.html - Individual product view
+cart.html           - Shopping cart
+orders.html         - Order history
+
+/css/
+  style.css         - Main stylesheet
+
+/js/
+  main.js           - Shared functionality
+  products.js       - Product display logic
+  cart.js           - Cart management
+  orders.js         - Order management
+
+5. DEPENDENCIES
+- Font Awesome (v6) - For icons
+- Google Fonts (optional)
+
+6. SETUP INSTRUCTIONS
+1. Clone repository
+2. Open index.html in browser
+3. No backend required (uses LocalStorage)
+
+7. FUTURE ENHANCEMENTS
+- User accounts system
+- Payment gateway integration
+- Product search functionality
+- Admin dashboard for order management
+
+8. CREDITS
+Developed by Sharleen Njeri
+
+For support contact: sharleennjerikabiru@gmail.com
